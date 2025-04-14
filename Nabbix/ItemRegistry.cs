@@ -48,10 +48,10 @@ namespace Nabbix
 
             try
             {
-                if (WindowsPerformanceCounters.IsCounter(key))
-                {
-                    return WindowsPerformanceCounters.GetNextValue(key);
-                }
+                //if (WindowsPerformanceCounters.IsCounter(key))
+                //{
+                //    return WindowsPerformanceCounters.GetNextValue(key);
+                //}
 
                 Item item;
                 if (RegisteredProperties.TryGetValue(key, out item))

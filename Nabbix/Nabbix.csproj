@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <Version>$(PackageVersion)</Version>
-    <AssemblyVersion>$(PackageVersion)</AssemblyVersion>
-    <PackageLicenseUrl>https://github.com/nolstoy/nabbix/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/nolstoy/nabbix</PackageProjectUrl>
-    <Description>This package contains a lightweight, embeddable C# Zabbix Agent that responds to Zabbix Passive Checks.</Description>
-    <RepositoryUrl>https://github.com/nolstoy/nabbix</RepositoryUrl>
-    <FileVersion>$(PackageVersion)</FileVersion>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Common.Logging" Version="3.4.1" />
-    <PackageReference Include="Fasterflect.Netstandard" Version="1.0.8" />
-    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.5.0" />
-  </ItemGroup>
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;net6.0;netcoreapp3.1</TargetFrameworks>
+        <Version>1.0.1</Version>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <FileVersion>1.0.1</FileVersion>
+        <Description>This package contains a lightweight, embeddable C# Zabbix Agent that responds to Zabbix Passive Checks.</Description>
+        <RepositoryUrl>https://github.com/nolstoy/nabbix</RepositoryUrl>
+        <PackageLicenseUrl>https://github.com/nolstoy/nabbix/blob/master/LICENSE.txt</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/nolstoy/nabbix</PackageProjectUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Common.Logging" Version="3.4.1" />
+        <PackageReference Include="Fasterflect.Netstandard" Version="1.0.8" />
+    </ItemGroup>
 </Project>
